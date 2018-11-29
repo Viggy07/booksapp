@@ -1,9 +1,12 @@
-default: &default
+  default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: root
-  password:
+  database: eks_mysql_test
+  username: eks_master
+  password: w2wCg0Dr%zY92#ZG
+  host: ekstestmysql.cbosoggsmdvh.us-east-2.rds.amazonaws.com
+  port: 3306
   socket: /tmp/mysql.sock
 
 development:
